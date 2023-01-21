@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <style>
+        fieldset{
+            font-family: sans-serif;
+            color:ghostwhite;
+            background-color: black;
+            width:fit-content;
+        }
+        span{
+            color: red;
+        }
+        [type="submit"]{
+            background-color: red;
+            color:ghostwhite;
+            margin-left:300px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+        <h2>Application</h2>
+        <h3>Please fill out the application form carefully</h3>
+        <table>
+            <tr>
+                <td>
+                    <label for="name">Full Name <span>*</span></label>
+                </td>
+                <td>
+                    <input type="text" id="name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="fname">Father Name<span>*</span></label>
+                </td>
+                <td>
+                    <input type="text" id="fname">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mname">Mother Name<span>*</span></label>
+                </td>
+                <td>
+                    <input type="text" id="mname">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dob">Date Of Birth<span>*</span></label>
+                </td>
+                <td>
+                <select name="" id="">
+                    <option value=""></option>
+                    <option value="">Monday</option>
+                    <option value="">Tuesday</option>
+                    <option value="">Wednesday</option>
+                    <option value="">Thursday</option>
+                    <option value="">Friday</option>
+                    <option value="">Saturday</option>
+                    <option value="">Sunday</option>
+                </select>
+            </td>
+            <td>
+                <select name="" id="">
+                    <option value=""></option>
+                    <option value="">January</option>
+                    <option value="">February</option>
+                    <option value="">March</option>
+                    <option value="">April</option>
+                    <option value="">May</option>
+                    <option value="">June</option>
+                    <option value="">July</option>
+                    <option value="">August</option>
+                    <option value="">October</option>
+                    <option value="">November</option>
+                    <option value="">December</option>
+                    
+                    
+                </select>
+            </td>
+            <td>
+             <label for="year"></label>
+             <input type="text" placeholder="Select Year">
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gender">Gender<span>*</span></label>
+                </td>
+                    <td>
+                    <select>
+                        <option value="gender"></option>
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                        <option value="">Others</option>
+                        
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">E-Mail Address<span>*</span></label>
+                </td>
+                <td>
+                    <input type="email" id="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="number">Mobile Number<span>*</span></label>
+                </td>
+                <td>
+                    <input type="number" id="number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">Address<span>*</span></label>
+                </td>
+                <td >
+                   <input type="text" placeholder="Street Address"> 
+                </td>
+                <td>
+                    <input type="text" placeholder="Street Line 2">
+                </td><td >
+                    <input type="text" placeholder="City">
+                </td>
+                <td >
+                    <input type="text" placeholder="State/Province">
+                </td>
+                <td >
+                    <input type="text" placeholder="Postal/zip code">
+                </td>
+                <td >
+                    <input type="text" placeholder="Country">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="cname">Course name<span>*</span></label>
+                </td>
+                <td>
+                    <input type="text" id="cname">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="education">Type Of Education<span>*</span></label>
+                </td>
+                <td>
+                    <select>
+                        <option value="education"></option>
+                        <option value="">B.E</option>
+                        <option value="">BCA</option>
+                        <option value="">B.Tech</option>
+                        <option value="">MCA</option>
+                    </select>
+
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="desc">Course Description.</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="submit"></label>
+                </td>
+                <td>
+                    <input type="submit" value="Apply Now">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    </form>
+</body>
+
+</html>
